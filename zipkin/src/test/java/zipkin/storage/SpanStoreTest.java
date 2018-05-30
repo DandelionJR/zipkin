@@ -537,7 +537,7 @@ public abstract class SpanStoreTest {
   }
 
   /**
-   * Spans and traces are meaningless unless they have a timestamp. While unlikley, this could
+   * Spans and traces are meaningless unless they have a timestamp. While unlikely, this could
    * happen if a binary annotation is logged before a timestamped one is.
    */
   @Test
